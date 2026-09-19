@@ -1,20 +1,21 @@
+import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native';
+
+import { SplashScreen } from './src/features/Modulo_Autenticacion/presentation/SplashScreen';
+import { LoginScreen } from './src/features/Modulo_Autenticacion/presentation/LoginScreen';
 
 export default function App() {
+  const [isSplashVisible, setIsSplashVisible] = useState(true);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView className="flex-1 bg-slate-950">
+      <StatusBar style="light" />
+      {isSplashVisible ? (
+        <SplashScreen onAnimationFinish={() => setIsSplashVisible(false)} />
+      ) : (
+        <LoginScreen />
+      )}
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

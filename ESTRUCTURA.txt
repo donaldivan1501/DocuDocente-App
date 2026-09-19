@@ -1,0 +1,79 @@
+DocuDocente-App
+ ┣ .claude
+ ┃ ┗ settings.json
+ ┣ .expo
+ ┃ ┣ dev
+ ┃ ┃ ┗ logs
+ ┃ ┃ ┃ ┗ start.log
+ ┃ ┣ devices.json
+ ┃ ┗ README.md
+ ┣ .vscode
+ ┃ ┗ .react
+ ┣ assets
+ ┃ ┣ android-icon-background.png
+ ┃ ┣ android-icon-foreground.png
+ ┃ ┣ android-icon-monochrome.png
+ ┃ ┣ favicon.png
+ ┃ ┣ icon.png
+ ┃ ┗ splash-icon.png
+ ┣ node_modules
+ ┃ ┃ 
+ ┃ ┗ 
+ ┣ src
+ ┃ ┣ core
+ ┃ ┃ ┣ adapters
+ ┃ ┃ ┃ ┣ camera.adapter.ts
+ ┃ ┃ ┃ ┣ filePicker.adapter.ts
+ ┃ ┃ ┃ ┗ secureStore.adapter.ts
+ ┃ ┃ ┣ api
+ ┃ ┃ ┃ ┗ axiosInstance.ts
+ ┃ ┃ ┣ components
+ ┃ ┃ ┃ ┣ Button.tsx
+ ┃ ┃ ┃ ┣ Card.tsx
+ ┃ ┃ ┃ ┗ Input.tsx
+ ┃ ┃ ┣ theme
+ ┃ ┃ ┗ utils
+ ┃ ┣ features
+ ┃ ┃ ┣ Modulo_Autenticacion
+ ┃ ┃ ┃ ┣ domain
+ ┃ ┃ ┃ ┣ infrastructure
+ ┃ ┃ ┃ ┗ presentation
+ ┃ ┃ ┣ Modulo_Bitacora_Actividades
+ ┃ ┃ ┃ ┣ domain
+ ┃ ┃ ┃ ┣ infrastructure
+ ┃ ┃ ┃ ┗ presentation
+ ┃ ┃ ┣ Modulo_Generar_Informe
+ ┃ ┃ ┃ ┣ domain
+ ┃ ┃ ┃ ┣ infrastructure
+ ┃ ┃ ┃ ┗ presentation
+ ┃ ┃ ┣ Modulo_Plantilla_Informe
+ ┃ ┃ ┃ ┣ domain
+ ┃ ┃ ┃ ┣ infrastructure
+ ┃ ┃ ┃ ┗ presentation
+ ┃ ┃ ┃ ┃ ┣ hooks
+ ┃ ┃ ┃ ┃ ┗ screens
+ ┃ ┃ ┗ Modulo_Subida_Excel
+ ┃ ┃ ┃ ┣ domain
+ ┃ ┃ ┃ ┣ infrastructure
+ ┃ ┃ ┃ ┗ presentation
+ ┃ ┃ ┃ ┃ ┣ hooks
+ ┃ ┃ ┃ ┃ ┗ screens
+ ┃ ┣ navigation
+ ┃ ┃ ┣ AppNavigator.tsx
+ ┃ ┃ ┗ types.ts
+ ┃ ┗ App.tsx
+ ┣ .gitignore
+ ┣ AGENTS.md
+ ┣ app.json
+ ┣ App.tsx
+ ┣ babel.config.js
+ ┣ CLAUDE.md
+ ┣ global.css
+ ┣ index.ts
+ ┣ LICENSE
+ ┣ metro.config.js
+ ┣ nativewind-env.d.ts
+ ┣ package-lock.json
+ ┣ package.json
+ ┣ tailwind.config.js
+ ┗ tsconfig.json
